@@ -605,11 +605,17 @@ h3 {
     object-fit: cover;
 }
 
-.feature-02 .footer {
+.footer {
     margin-top: 105px;
 }
 
-.feature-02 .footer .menu .item {
+.footer .content {
+    margin-left: auto;
+    margin-right: auto;
+    width: var(--Default-Width);
+}
+
+.footer .menu .item {
     display: flex;
     color: #1C1C1D;
     font-size: 2rem;
@@ -619,7 +625,7 @@ h3 {
     justify-content: space-between;
 }
 
-.feature-02 .footer .menu .sub-item {
+.footer .menu .sub-item {
     color: #7A7A7E;
     font-size: 1.6rem;
     font-style: normal;
@@ -629,25 +635,25 @@ h3 {
     margin-top: 42px;
 }
 
-.feature-02 .footer .menu .sub-item li + li {
+.footer .menu .sub-item li + li {
     margin-top: 18px;
 }
 
-.feature-02 .footer .menu .sub-item .logo{
+.footer .menu .sub-item .logo{
     margin-top: 40px;
     width: 117px;
     display: flex;
     justify-content: space-between;
 }
 
-.feature-02 .footer-02 {
+.footer-02 {
     display: flex;
     justify-content: space-between;
     margin-top: 81px;
     margin-bottom: 58px;
 }
 
-.feature-02 .footer-02 .desc {
+.footer-02 .desc {
     color: #C2C2C2;
     font-size: 1.4rem;
     font-weight: 400;
