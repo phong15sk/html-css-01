@@ -86,7 +86,7 @@ h3 {
 .header {
     height: 736px;
     background-color: #E6F0FF;
-    padding-top: 38px;
+    margin-top: 0px;
 }
 
 .header .navigation {
@@ -97,6 +97,15 @@ h3 {
     height: 40px;
     align-items: center;
     max-width: 100vw;
+}
+
+.custom-navigation {
+    position: fixed;
+    z-index: 1;
+    background-color: #E6F0FF;
+    width: 100%;
+    padding-top: 38px;
+    padding-bottom: 10px;
 }
 
 .header .navigation .logo {
@@ -132,7 +141,7 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     width: var(--Default-Width);
-    margin-top: 39px;
+    padding-top: 117px;
     position: relative;
 }
 
